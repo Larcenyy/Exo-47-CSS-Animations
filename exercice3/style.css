@@ -8,6 +8,29 @@
 }
 
 @keyframes exercice3 {
-
-
+    0%{
+        background: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background: #0015ff;
+        left: 0px;
+        top: 200px;
+    }
+    50%{
+        background: #48ff00;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background: #ffd500;
+        left: 200px;
+        top: 0px;
+    }
+    100%{
+        background: red;
+        left: 0px;
+        top: 0px;
+    }
 }

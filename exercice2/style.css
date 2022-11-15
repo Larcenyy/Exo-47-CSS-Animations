@@ -2,5 +2,29 @@
     width: 100px;
     height: 100px;
     background: red;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-name: foo;
 }
 
+
+@keyframes foo {
+    10%{
+        background: #c59078;
+    }
+    25%{
+        background: #c5ad78;
+    }
+    40%{
+        background: #c5c178;
+    }
+    55%{
+        background: #92c578;
+    }
+    65%{
+        background: #87e853;
+    }
+    95%{
+        background: #58ff00;
+    }
+}
